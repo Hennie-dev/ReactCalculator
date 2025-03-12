@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.Calculator{
+
+    display: flex;
+    width: 400px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+#result{
+    width: 400px;
+    height: 150px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    font-size: 45px;
+    text-align: right;
+    border: 3px solid #333;
+
+}
+
+.button{
+
+    width: calc(400px/4);
+    height: calc(400px/4);
+    background-color: #333;
+    color: white;
+    font-size: 30px;
+    border: 1px solid black;
+    float: left;
+
+    &:hover{
+        background-color: #111;
+    }
+
+}
+
+.end{
+    width: calc(400px/2);
+}
