@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    height: 94vh;
+    overflow: hidden;
+    background-image: linear-gradient(black, blue, lightblue);
+}
 .Calculator{
 
     display: flex;
